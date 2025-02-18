@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 h1 {
-    color: #333;
+    color: #003366;
 }
 form {
     margin-bottom: 20px;
@@ -15,6 +15,7 @@ input {
     width: 100%;
     max-width: 400px;
 }
+/*
 button {
     padding: 10px 15px;
     background-color: #007bff;
@@ -22,14 +23,50 @@ button {
     border: none;
     cursor: pointer;
 }
+
 button:hover {
     background-color: #69e882;
 }
+*/
+
+button {
+    background-color: #007bff; /* Blue background */
+    color: black; /* Ensure white text for visibility */
+    border: none;
+    padding: 10px 15px; /* Keep padding consistent */
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #69e882;
+}
+
 #url-list div {
     margin: 10px 0;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
+}
+
+/*
+.map-control {
+    position: absolute;
+    top: 60px; 
+    left: 10px;
+    z-index: 999;
+    padding: 8px 12px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 5px;
+}
+*/
+
+#map {
+    margin-top: 20px; /* Extra space to avoid overlap */
 }
 
 .map-control {
@@ -43,6 +80,7 @@ button:hover {
     margin: 5px;
 }
 
+
 #draw-toggle {
     left: 10px;
 }
@@ -51,4 +89,151 @@ button:hover {
     left: 120px;
     min-width: 250px;
     font-family: monospace;
+}
+
+
+/* Fix the Reset Selection button width */
+#reset-selection {
+    display: inline-block;  /* Keeps it from stretching */
+    width: auto;  /* Prevents full width */
+    padding: 8px 12px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px auto; /* Centers if necessary */
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #f8f8f8;
+    padding: 15px 0;
+    text-align: center; /* Center aligns navigation links */
+    border-bottom: 1px solid #ccc;
+}
+
+/* Remove default list styling */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centers links */
+    gap: 20px;
+}
+
+/* Style navigation links */
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: color 0.3s ease-in-out;
+}
+/*
+nav a:hover {
+    color: #007bff;
+}
+*/
+/* Center the title */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Ensure the buttons inside the map don't overlap */
+.map-control {
+    position: absolute;
+    top: 60px;
+    z-index: 999;
+    padding: 8px 12px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+/* Adjust form spacing */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+input {
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+/*
+button {
+    background-color: #007bff; 
+    color: white; 
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+*/
+
+/* Global Styles (applies to all pages) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.text-content {
+    flex: 2;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 26px;
+    color: #003366;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.image {
+    flex: 1;
+    padding: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }

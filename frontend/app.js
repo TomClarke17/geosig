@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         style: 'mapbox://styles/mapbox/streets-v11',
         center: [-6.2603, 53.3498],
         zoom: 10,
+        //attributionControl: false
     });
 
 
