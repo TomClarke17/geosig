@@ -290,7 +290,6 @@ p {
     font-size: 18px;
 }
 
-/* Tutorial Section */
 .tutorial-section {
     text-align: center;
     margin-top: 40px;
@@ -307,7 +306,6 @@ p {
     margin-bottom: 30px;
 }
 
-/* Tutorial Panels */
 .tutorial-container {
     display: flex;
     justify-content: center;
@@ -349,4 +347,46 @@ p {
 
 .btn:hover {
     background: #0b3c8b;
+}
+
+.site-header {
+    background-color: #002855;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.tutorial-section {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #002855;
+    border-bottom: 2px solid #004a99;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #004a99;
+    margin-top: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.tutorial-section ul {
+    list-style: none;
+    padding-left: 0;
 }

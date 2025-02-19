@@ -1,36 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GeoSig Tutorial</title>
+<div class="header">
     <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <a href="index.html" class="home-link">Home</a>
+    Geosig
+</div>
 
-    <div class="header">
-        <a href="index.html" class="home-link">Home</a>  
-        Geosig
+<!--
+<header class="site-header">
+    <link rel="stylesheet" href="styles.css">
+    <div class="container">
+        <h1>GeoSig Tutorial</h1>
     </div>
+</header>
+-->
+<section class="tutorial-section">
+    <h2>Admin Tutorial</h2>
+    <p>This guide provides step-by-step instructions for administrators using the GeoSig admin panel.</p>
 
-    <div class="tutorial-section">
-        <h2>Tutorials</h2>
-        <p>Learn how to use GeoSig effectively.</p>
+    <h3>Managing QR Codes</h3>
+    <ul>
+        <li>Log into the Admin Panel.</li>
+        <li>Navigate to **QR Code Management**.</li>
+        <li>Click **+ Add QR Code** to register a new QR code.</li>
+        <li>Enter necessary details such as **location and metadata**.</li>
+        <li>Click **Save** to confirm.</li>
+    </ul>
 
-        <div class="tutorial-container">
-            <div class="tutorial-panel">
-                <h3>Admin Tutorial</h3>
-                <p>Learn how to manage QR codes, verify locations, and oversee the system as an admin.</p>
-                <a href="admin-tutorial.html" class="btn">View Admin Guide</a>
-            </div>
+    <h3>Verifying Users</h3>
+    <ul>
+        <li>Go to **User Management**.</li>
+        <li>View pending verification requests.</li>
+        <li>Approve or reject users based on credentials.</li>
+        <li>Users will be notified of their verification status.</li>
+    </ul>
 
-            <div class="tutorial-panel">
-                <h3>User Tutorial</h3>
-                <p>Learn how to scan QR codes securely and ensure safe redirection as a user.</p>
-                <a href="user-tutorial.html" class="btn">View User Guide</a>
-            </div>
-        </div>
-    </div>
+    <h3>Security Best Practices</h3>
+    <ul>
+        <li>Regularly audit registered QR codes.</li>
+        <li>Ensure that only **verified admins** have access.</li>
+        <li>Use **strong passwords** for admin logins.</li>
+    </ul>
+</section>
 
-</body>
-</html>
+<section class="tutorial-section">
+    <h2>User Tutorial</h2>
+    <p>This guide provides step-by-step instructions for users accessing the GeoSig app.</p>
+
+    <h3>Scanning QR Codes</h3>
+    <ul>
+        <li>Open the **GeoSig app**.</li>
+        <li>Tap **Scan QR Code**.</li>
+        <li>Allow **camera access** if prompted.</li>
+        <li>Scan the QR code and follow the on-screen instructions.</li>
+    </ul>
+
+    <h3>Viewing Past Scans</h3>
+    <ul>
+        <li>Go to **History** in the app menu.</li>
+        <li>View all previously scanned locations.</li>
+    </ul>
+
+    <h3>Managing Account</h3>
+    <ul>
+        <li>Go to **Settings** to update account details.</li>
+        <li>Enable **notifications** for scan alerts.</li>
+    </ul>
+</section>
