@@ -193,9 +193,11 @@ body {
 .header {
     background-color: #003366;
     color: white;
+    text-align: center;
     padding: 20px;
     font-size: 24px;
     font-weight: bold;
+    position: relative;
 }
 
 .container {
@@ -236,4 +238,115 @@ p {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+}
+
+.home-link {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+.contact-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-section h2 {
+    color: #0d47a1;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Contact Panels - Bigger and Stacked */
+.contact-panel {
+    background: white;
+    padding: 30px;
+    width: 70%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-panel h3 {
+    margin-bottom: 10px;
+    color: #0d47a1;
+    font-size: 24px;
+}
+
+.contact-panel p {
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+/* Tutorial Section */
+.tutorial-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.tutorial-section h2 {
+    color: #0d47a1;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.tutorial-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Tutorial Panels */
+.tutorial-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tutorial-panel {
+    background: white;
+    padding: 30px;
+    width: 45%;
+    max-width: 500px;
+    min-width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tutorial-panel h3 {
+    color: #0d47a1;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tutorial-panel p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0d47a1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #0b3c8b;
 }
